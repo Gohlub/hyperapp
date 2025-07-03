@@ -11,7 +11,7 @@
 use hyperprocess_macro::*;
 
 use hyperware_process_lib::http::server::{send_ws_push, WsMessageType};
-use hyperware_app_common::{get_server, source};
+use hyperware_app_common::{get_server, source, SaveOptions};
 use hyperware_process_lib::{LazyLoadBlob, Address, homepage::add_to_homepage, our};
 // you can use these imports when using P2P features from the hyperware_process_lib:
 // Address,                // For P2P addressing
